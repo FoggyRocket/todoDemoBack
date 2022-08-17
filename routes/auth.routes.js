@@ -1,6 +1,6 @@
 const router = require("express").Router();
 //importar el controlador 
-const {signupProcess,loginProcess,logoutProcess} = require("../controllers/auth.controller")
+const {signupProcess,loginProcess,logoutProcess} = require("../controllers/demoAuthAsycn.controller")
 //middelwares
 
 router.post("/signup", signupProcess);
